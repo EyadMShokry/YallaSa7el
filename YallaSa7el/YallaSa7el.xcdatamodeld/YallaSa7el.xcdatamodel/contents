@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Apartement" representedClassName="Apartement" syncable="YES" codeGenerationType="class">
+        <attribute name="additionDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="apartementAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apartementDistrict" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apartementImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="apartementTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfBathrooms" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="numberOfRooms" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="oneNightPrice" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Apartement" positionX="-54" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>
